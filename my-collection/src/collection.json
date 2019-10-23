@@ -1,11 +1,6 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
-    "structure": {
-      "description": "An example of schematics to add a header and a footer in an application",
-      "factory": "./structure/index#init",
-      "schema": "./structure/schema.json"
-    },
     "card": {
       "description": "Card design 1",
       "factory": "./card/index#init",
