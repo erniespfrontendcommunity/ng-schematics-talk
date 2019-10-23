@@ -1,0 +1,34 @@
+.app-root {
+  .header {
+    padding: 12px;
+    background: #073763;
+    color: #B5C3D0;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    button {
+      background-color: white;
+      border: 2px solid #E1E7EC;
+      border-radius: 5px;
+      color: #073763;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+
+  footer {
+    background: #073763;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 24px;
+    max-height: 64px;
+    color: #B5C3D0;
+  }
+
+  .contenido {
+    margin-bottom: 84px;
+  }
+}

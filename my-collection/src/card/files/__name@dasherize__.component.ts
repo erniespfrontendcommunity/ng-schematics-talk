@@ -1,8 +1,8 @@
-import { Component, Input } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
-    selector: 'app-<%= dasherize(name)%>',
-    template: `
+  selector: 'app-<%= dasherize(name)%>',
+  template: `
 <mat-card class="dashboard-card">
     <mat-card-header>
         <mat-card-title>

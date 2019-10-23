@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "SchematicsMyComponent",
+  "title": "My Component Schema",
+  "type": "object",
+  "properties": {
+    "author": {
+      "type": "string",
+      "description": "Name of the author",
+      "x-prompt": "What is the name of the author?"
+    }
+  },
+  "required": ["author"]
+}
